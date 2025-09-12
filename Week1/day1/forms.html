@@ -1,60 +1,66 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms in html</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
     <h1>Student registration form</h1>
-<fieldset>
-    <legend><h3>Registration Form</h3></legend>
-    <form action="" method="post">
+    <fieldset class="form">
+        <legend>
+            <h3 id="registration">Registration Form</h3>
+        </legend>
+        <form action="" method="post" id="form">
 
-   <label for="username">First Name: </label>
-   <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
-   <label for="username">Last Name: </label>
-   <input type="text" id="lasttname" name="lastname" placeholder="Enter your last name" required>
-   <br> <br>
-<label for="email">Email: </label>   
-<input type="email" name="email" id="email" placeholder="Enter your email">
+            <label for="username">First Name: </label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
+            <label for="username">Last Name: </label>
+            <input type="text" id="lasttname" name="lastname" placeholder="Enter your last name" required>
+            <br> <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
 
-<br><br>
-<label for="password">Create password: </label>
-<input type="password" name="password" id="password" placeholder="password" >
-<br>
-<p>Gender</p>
-<input type="radio" name="gender" value="Male">Male
-<input type="radio" name="gender" value="Female">Female
-<br><br>
-<p>Skills</p>
+            <br><br>
+            <label for="password">Create password: </label>
+            <input type="password" name="password" id="password" placeholder="password">
+            <br>
+            <p>Gender</p>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <br><br>
+            <p>Skills</p>
 
-<input type="checkbox" name="skills" value="HTML">HTML
-<input type="checkbox" name="skills" value="CSS">CSS
-<input type="checkbox" name="skills" value="Javascript">Javascript
-<input type="checkbox" name="skills" value="Node.js">Node.js
+            <input type="checkbox" name="skills" value="HTML">HTML
+            <input type="checkbox" name="skills" value="CSS">CSS
+            <input type="checkbox" name="skills" value="Javascript">Javascript
+            <input type="checkbox" name="skills" value="Node.js">Node.js
 
-<br><br>
+            <br><br>
 
-<label for="country">Country: </label>
-<select name="country" id="country">
-    <option>India</option>
-<option>China</option>
-<option>USA</option>
-<option>Russia</option>
+            <label for="country">Country: </label>
+            <select name="country" id="country">
+                <option>India</option>
+                <option>China</option>
+                <option>USA</option>
+                <option>Russia</option>
 
-</select>
-<br><br>
-<label for="resume">Upload resume: </label>
-<input type="file" id="resume" value="resume">
-<br> <br>
-<textarea name="message" id="message" placeholder="Enter your message"></textarea> <br><br>
-<input type="submit" value="Register">
+            </select>
+            <br><br>
+            <label for="resume">Upload resume: </label>
+            <input type="file" id="resume" value="resume">
+            <br> <br>
+            <textarea name="message" id="message" placeholder="Enter your message"></textarea> <br><br>
+            <input type="submit" value="Register">
 
 
-        
-    </form>
+
+        </form>
     </fieldset>
 </body>
+
 </html>

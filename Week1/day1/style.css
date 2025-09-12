@@ -1,0 +1,42 @@
+/* Css selectors:  */
+
+/* 1. Element selector: */
+body {
+    background-color: rgb(164, 183, 255);
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+/* 2. Class selector: */
+.form   {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* 3. ID selector: */
+#form {
+    background-color: rgb(194, 197, 237);
+    border-radius: 10px;
+}
+#registration{
+    color: rgb(71, 70, 70);
+    background-color: rgb(194, 197, 237);
+    border-radius: 4px;
+}
+/* 4. Group selector */
+
+input, label {
+color: rgb(71, 70, 70);
+}
+
+/* 5. Attribute selector */
+ input[type = "text"]{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+ }
+ /* 6. Pseudo-class selector */
+/*A pseudo-class is a keyword added to a selector that defines a special state of an element. */
+
+input[type = "submit"]:hover{
+    background-color: blue;
+}
